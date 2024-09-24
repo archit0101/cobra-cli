@@ -37,5 +37,5 @@ Abstraction and implementation of database action that will be used by the busin
 - We are introducing an alternative way for generating go projects, [julogen](https://github.com/julofinance/julogen/tree/main), that will use command line interface to automate this process.
 - Any future changes planned for julo-go-skeleton must also be made in the julogen [skeletal code](https://github.com/julofinance/julogen/tree/main/cmd/initialize/skeletal), copy of julo-go-skeleton embedded inside julogen.
 - Installation
-* go install github.com/julofinance/julogen@latest
-* julogen create <project_name>
+  * go install github.com/julofinance/julogen@latest
+  * julogen create <project_name>
